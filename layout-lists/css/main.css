@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+
+.top-header {
+    margin: 10px;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.equipment {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 30px;
+
+}
+
+.keyboard {
+    position: relative;
+}
+
+.camera {
+    position: relative;
+}
+
+.equipment .keyboard .text {
+    position: absolute;
+    left: 310px;
+    bottom: 80px; 
+}
+
+.equipment .camera .text {
+    position: absolute;
+    left: 160px;
+    bottom: 80px; 
+}
+
+.prestaties {
+    height: 600px;
+    margin-bottom: 30px;
+    background-image: url(https://resource.logitech.com/w_1800,h_1800,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/homepage/static-hpb/mx-mechanical-master-3s-hpb-desktop.png?v=1);
+}
+
+.prestaties .first-row {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.prestaties .first-row>.logo img {
+    width: 140px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 190px;
+}
+
+.links {
+    margin-left: 180px;
+}
+.links ul li {
+    display: inline;
+    margin: 15px;
+}
+
+ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.prestaties .first-row {
+    display: flex;
+}
+
+.prestaties .first-row .icons>i {
+    color: white;
+    margin: 15px;
+}
+
+.icons {
+    margin-left: 190px;
+}
+
+.title p {
+    font-size: 50px;
+    color: white;
+    margin-left: 190px;
+    margin-top: 15px;
+
+}
+
+.extra p {
+    font-size: 24px;
+    color: white;
+    margin-left: 190px;
+    width: 30%;
+}
+
+.button-one button {
+    font-size: 16px;
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+    border: none;
+    margin-left: 190px;
+    margin-top: 15px;
+}
+
+.next-life {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: auto;
+    margin-bottom: 30px;
+    background-image: url(https://resource.logitech.com/w_1800,h_1800,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/homepage/pcr-plastic-desktop.png?v=1);
+}
+
+.next-life .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.little {
+    font-size: 16px;
+}
+
+.button-two {
+    font-size: 16px;
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+    border: none;
+    margin-top: 15px;
+}
+
+.triple-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.text .link {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.text .title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.toekomst {
+    height: 600px;
+    background-image: url(https://resource.logitech.com/w_1800,h_1800,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/homepage/future-positive-challenge-desktop.jpg?v=1);
+}
+
+.toekomst .main-text {
+    padding-top: 12%;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    font-weight: bold;
+    align-items: center; 
+    color: white;
+}
+
+.toekomst .extra-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center; 
+    color: white;
+}
+
+.button-two {
+    font-size: 16px;
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+    border: none;
+    margin-top: 15px;
+}
+
+
+
+
+

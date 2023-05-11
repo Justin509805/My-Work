@@ -1,0 +1,393 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000;
+    --white: #FFF;
+    --gray: #808080;
+    --light-gray: #FAFAFA;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    height: 400vh;
+    
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 2000px;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+ul {
+    list-style-type: none ;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 11px;
+
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo>p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.cart-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.cart-btn>button {
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 30px;
+    font-size: 11px;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-gray);
+    color: #f1f1f1;
+}
+
+video {
+
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+
+.title {
+    font-size: 50px;
+    margin: 0;
+}
+
+
+#myVideo {
+    top: 10vh;
+    min-width: 100%; 
+    min-height: 80%;
+  }
+  
+  .content {
+    margin-top: 200px;
+    position: absolute;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  .content>p {
+    margin: -0.2em;
+  }
+
+  .content>button {
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+  
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  /* ------------------------- */
+
+span {
+    text-decoration: underline;
+}
+
+.mission-btn {
+    margin: 1em;
+}
+
+.parfum-hdr {
+    margin: 2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    background-position: center; 
+    background-image: url(https://images.ctfassets.net/57fahiw4uj5z/5WvNiGuaWpiEoMkQPAUvOl/d9872ec3dd58a0b774a143910fe045d1/Group_889.jpg?fm=webp&w=1800&h=1800&q=75);
+}
+
+.parfum-img {
+    width: 1450px;
+    height: 800px;
+    object-fit: contain;
+}
+
+.parfum-hdr-info {
+    line-height: -0.2em;
+    color: white;
+    font-size: 2rem;
+    margin: 2em;
+
+}
+
+.parfum-hdr-info>p {
+    margin-bottom: 0;
+
+}
+
+.parfum-hdr-info>button {
+    background-color: #808080;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.technology-sctn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    margin: 2.5em;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.technology {
+    display: flex;
+    justify-content: center;
+}
+
+.article>button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 245px;
+}
+
+.pipes-sctn {
+    margin: 2.5em;
+}
+
+.pipes-img>img {
+    width: 94vw;
+}
+
+.parfum-back {
+    display: flex;
+    justify-content: center;
+    background-color: #E6E6E6;
+}
+
+.parfum2-img {
+    width: 600px;
+}
+
+.navigation-parfum>li a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.navigation-parfum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2.5em;
+}
+
+.navigation-parfum>li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.grid-parfum {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.pafrum-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pafrum-back>button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*  */
+.co2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 5%;
+}
+
+.airmade-bg {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(https://images.ctfassets.net/57fahiw4uj5z/5LsGpnlRnyQgAXx3GfwE7H/6f18d53fea2056a7e0bafddd61072d14/AC_FUEL_STILLS_14.jpg?fm=webp&w=1800&h=1800&q=75);
+    object-fit: contain;
+    height: 90vh;
+    width: 94vw;
+}
+
+.co2 .airmade-bg .info {
+    color: #fff;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.co2 .airmade-bg .info button {
+    background-color: #808080;
+    border: none;
+    border-radius: 50px;
+    color: #FFF;
+    padding: 4px;
+}
+/*  */
+
+.helicopter-section img {
+    height: 90vh;
+    width: 100vw;
+}
+
+.top-layer {
+    position: absolute;
+    left: 30px;
+    display: flex;
+    color: white;
+    gap: 50px;
+}
+.mid-layer {
+    position: absolute;
+    left: 211px;
+    top: 4555px;
+    display: flex;
+    color: white;
+    gap: 50px;
+}
+
+.helicopter-section .info p {
+    margin: 0;
+    color: #fff;
+    font-size: 30px;
+}
+
+.helicopter-section .info {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.helicopter-section .info button {
+    color: #fff;
+    background-color: #808080;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+    margin: 3%;
+} 
+
+/*  */
+.footer {
+    background-color: var(--bg);
+
+}
+
+.footer-nav {
+    margin-top: 5%;
+    padding: 1rem;
+    display: flex;
+    margin: 5%;
+    gap: 140px;
+}
+
+.fa-angle-right {
+    margin: 4px;
+    font-weight: 500;
+}
+
+.titles {
+    color: #808080;
+    font: 10px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.footer button {
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.title-footer {
+    margin: 0;
+}
+
+

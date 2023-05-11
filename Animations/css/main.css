@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background-color: #22223b;
+    margin: 20px;
+}
+
+section {
+    display: inline;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: white;
+    width: 400px;
+    height: 200px;
+}
+
+p {
+    animation: p 2s ease-in-out infinite alternate;
+    -webkit-animation: p 2s ease-in-out infinite alternate;
+}
+
+.box-1 {
+    border-radius: 20px 0 0 20px;
+    background-color: #f72585;
+    animation: box-1 2s ease-in-out infinite  ;
+    -webkit-animation: box-1 2s  ease-in-out infinite alternate;
+
+}
+.box-2 {
+    background-color: #b5179e;
+    animation: box-2 2s ease-in-out infinite alternate;
+    -webkit-animation: box-2 2s ease-in-out infinite alternate;
+}
+.box-3 {
+    background-color: #7209b7;
+    animation: box-2 2s ease-in-out infinite alternate;
+    -webkit-animation: box-2 2s ease-in-out infinite alternate;
+}
+.box-4 {
+    background-color: #560bad;
+    animation: box-2 2s ease-in-out infinite alternate;
+    -webkit-animation: box-2 2s ease-in-out infinite alternate;
+}
+.box-5 {
+    background-color: #480ca8;
+    animation: box-2 2s ease-in-out infinite alternate;
+    -webkit-animation: box-2 2s ease-in-out infinite alternate;
+}
+.box-6 {
+    background-color: #3a0ca3;
+    animation: box-2 2s ease-in-out infinite alternate;
+    -webkit-animation: box-2 2s ease-in-out infinite alternate;
+}
+.box-7 {
+    background-color: #3f37c9;
+    animation: box-2 2s ease-in-out infinite alternate;
+    -webkit-animation: box-2 2s ease-in-out infinite alternate;
+}
+.box-8 {
+    background-color: #4361ee;
+    animation: box-2 2s ease-in-out infinite alternate;
+    -webkit-animation: box-2 2s ease-in-out infinite alternate;
+}
+.box-9 {
+    background-color: #4895ef;
+    animation: box-2 2s ease-in-out infinite alternate;
+    -webkit-animation: box-2 2s ease-in-out infinite alternate;
+}
+.box-10 {
+    border-radius: 0 20px 20px 0;
+    background-color: #4cc9f0;
+    animation: box-2 2s ease-in-out infinite alternate;
+    -webkit-animation: box-2 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes box-1 {
+    0% {
+        width: 400px;
+        height: 200px;
+    }
+    100% {
+        width: 500px;
+        height: 600px;
+    }
+}
+
+@keyframes box-2 {
+    0% {
+        width: 400px;
+        height: 200px;
+    }
+    100% {
+        width: 500px;
+        height: 600px;
+    }
+}
+
+@keyframes box-3 {
+    0% {
+        width: 400px;
+        height: 200px;
+    }
+    100% {
+        width: 500px;
+        height: 600px;
+    }
+}
+
+@keyframes box-4 {
+    0% {
+        width: 400px;
+        height: 200px;
+    }
+    100% {
+        width: 500px;
+        height: 600px;
+    }
+}
+@keyframes box-5 {
+    0% {
+        width: 400px;
+        height: 200px;
+    }
+    100% {
+        width: 500px;
+        height: 600px;
+    }
+}
+@keyframes box-6 {
+    0% {
+        width: 400px;
+        height: 200px;
+    }
+    100% {
+        width: 500px;
+        height: 600px;
+    }
+}
+@keyframes box-7 {
+    0% {
+        width: 400px;
+        height: 200px;
+    }
+    100% {
+        width: 500px;
+        height: 600px;
+    }
+}
+@keyframes box-8 {
+    0% {
+        width: 400px;
+        height: 200px;
+    }
+    100% {
+        width: 500px;
+        height: 600px;
+    }
+}
+@keyframes box-9 {
+    0% {
+        width: 400px;
+        height: 200px;
+    }
+    100% {
+        width: 500px;
+        height: 600px;
+    }
+}
+@keyframes box-10 {
+    0% {
+        width: 400px;
+        height: 200px;
+    }
+    100% {
+        width: 500px;
+        height: 600px;
+    }
+}
+
+@keyframes p {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+    }
+}
