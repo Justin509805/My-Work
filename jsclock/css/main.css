@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffe8d6;
+    overflow: hidden;
+}
+
+#clockBox {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#clockBox img {
+    width: 700px;
+    height: auto;
+}
+
+#hour,
+#minute {
+    position: absolute;
+    background: #AEE3AA;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#second {
+    position: absolute;
+    background: red;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 1.5%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+}
+  
+#minute {
+    width: 1.4%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+}
+  
+#second {
+    width: 0.2%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+}
+ 
