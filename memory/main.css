@@ -1,0 +1,22 @@
+body {
+	background: #3a0ca3;
+	margin: 0;
+    overflow-y: hidden;
+}
+
+
+.tiles {
+    margin: 8% 35%;
+	width: max-content;
+	display: grid;
+	grid-template-columns: repeat(4, 100px);
+	gap: 16px;
+	box-sizing: border-box;
+}
+
+.tile {
+	height: 100px;
+	background: #0d1b2a;
+	border: 5px solid #4cc9f0;
+	cursor: pointer;
+}
